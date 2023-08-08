@@ -1,0 +1,156 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  body {
+    margin: 60px auto;
+    max-width: 800px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 76px;
+    font-style: bold;
+  }
+  
+  h2 {
+    font-size: 58px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  p {
+    padding: 20px;
+    display: block;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+  .about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .about-paragraphs p {
+    display: flex;
+    margin: 30px 0;
+    margin: 10px;
+  }
+  
+
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  .fluid-images {
+    margin: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+  .secondary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  .primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  .about-paragraphs p {
+    margin: 10px;
+  }
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    h2{
+        font-size:22px ;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .navigation-links a {
+        padding: 15px 10px;
+        margin: 12px;
+
+        
+    }
+    .title-about {
+        font-size: 50px;
+
+    }
+    .about-paragraphs {
+        font-size: 24px;
+
+    }
+    .fluid-images{
+      width: 200px;
+      
+      
+    }
+    .primary-link{
+      display: flex;
+      justify-content: center;
+    
+    }
+
+
+  
+
+    
+}  
