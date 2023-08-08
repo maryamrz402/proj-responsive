@@ -5,8 +5,8 @@
   }
   
   body {
-    margin: 60px auto;
-    max-width: 800px;
+    margin: 100px 0 ;
+    
   }
   
   h1,
@@ -110,16 +110,21 @@
     box-shadow: var(--box-shadow);
     color: white;
   }
+  .primary-link:hover{
+    color: white;
+  }
   .about-paragraphs p {
     margin: 10px;
   }
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
     h1{
-        font-size: 30px;
+        font-size: 48px;
+        line-height: 1.5;
         margin-top: 10px;
+      
     }
     h2{
-        font-size:22px ;
+        font-size:32px ;
     }
     h3{
         font-size: 15px;
