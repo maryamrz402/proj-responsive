@@ -1,0 +1,247 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color:#F9F7FE;
+    --dark-color:rgb(219, 218, 210);
+    --light-color:rgb(251, 238, 222);
+    --box-shadow: 0 5px 10px rgba(231, 165, 165, 0.3);
+    --red-color:rgb(242, 41, 73);
+    --brown-color:rgb(226, 168, 117);
+    --blue-color:rgb(243, 246, 250);
+    --dark-blue:#272142;
+    --heading-font-family:'Playfair Display', serif; 
+    --default-font-family:'Poppins', sans-serif;
+  }
+  body{
+    margin: 0auto;
+  }
+  
+  
+  h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font-family);
+    color: black;
+    font-weight: bold;
+
+  }
+
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 96px;
+    font-style: bold;
+    
+
+  }
+  
+  h2 {
+    font-size: 64px;
+    
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+    
+  }
+  
+  p {
+    padding: 20px;
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    font-family: var(--default-font-family);
+    font-weight: normal;
+
+  }
+  
+    
+  
+  .hero{
+    background-color:rgb(243, 246, 250);
+    text-align: center;
+    padding: 160px 20px;
+  
+  }
+  .hero p{
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+  }
+  .hero h2{
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    line-height: 2;
+    font-weight:normal;
+    color:rgb(39, 32, 68);
+  }
+  .btn-branding {
+    border-radius: 4px;
+background:rgb(51, 62, 99);
+color: white;
+font-family: Poppins;
+font-size: 18px;
+line-height: 27px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 18px 30px;
+  }
+  .navbar-brand{
+    font-family: 'Black Ops One', cursive;
+    color:rgb(39, 32, 68);
+    font-size: 30px;
+    line-height: 22px;
+   
+    
+    
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+  .about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  .title-about{
+    font-size:86PX ;
+
+  }
+  
+  .about-paragraphs p {
+    display: flex;
+    margin: 30px 0;
+    margin: 10px;
+  }
+  .proj-description{
+    padding: 120px 80px;
+    text-align: center;
+  }
+  
+
+  
+  .email-link {
+    
+    
+    color: var(--primary-color);
+    font-size: 15px;
+    text-decoration: none;
+    color:rgb(39, 32, 68);
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  .fluid-images {
+    margin: 30px;
+    max-width: 100%;
+    height: auto;
+  }
+  .secondary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  .primary-link {
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 4px;
+    padding: 18px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background:rgb(93, 136, 192);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  .primary-link:hover{
+    color: white;
+  }
+  .about-paragraphs p {
+    margin: 10px;
+  }
+  footer{
+    text-align: center;
+    color:#272142 ;
+  
+
+  }
+
+@media (max-width: 900px) {
+    h1{
+        font-size: 60px;
+        line-height: 1.5;
+        margin-top: 10px;
+      
+    }
+    h2{
+        font-size:44px ;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .navigation-links a {
+        padding: 15px 10px;
+        margin: 12px;
+
+        
+    }
+    .title-about {
+        font-size: 50px;
+
+    }
+    .about-paragraphs {
+        font-size: 24px;
+
+    }
+    .fluid-images{
+      width: 200px;
+      
+      
+    }
+    
+    
+    
+
+    .proj-description{
+      padding: 0;
+      text-align: center;
+    }
+    .hero{
+      padding: 80px 20px;
+      
+    }
+  }
