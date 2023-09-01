@@ -93,12 +93,15 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 padding: 18px 30px;
+text-decoration: none;
+text-transform: capitalize;
   }
   .navbar-brand{
     font-family: 'Black Ops One', cursive;
     color:rgb(39, 32, 68);
     font-size: 30px;
     line-height: 22px;
+    max-height: 40px;
    
     
     
@@ -138,12 +141,54 @@ padding: 18px 30px;
     font-size:86PX ;
 
   }
-  
-  .about-paragraphs p {
-    display: flex;
-    margin: 30px 0;
-    margin: 10px;
+  .workpage{ 
+    background-color:rgb(250, 234, 235); 
+
   }
+  .content-container{
+    padding: 160px 20px;
+     text-align: center;
+     background-color:rgb(250, 234, 235);
+    
+    
+  }
+  .content{
+    margin: 30px;
+    background-color:rgb(250, 234, 235);
+    
+  }
+  
+  .content h3{
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    line-height: 1.5;
+
+
+  }
+  .content p{
+    font-size: 14px;
+  }
+  
+  .degree{
+    background-color:rgb(252, 246, 246) ;
+  }
+  
+  .content-container h1{
+    
+font-family: Playfair Display;
+font-size: 64px;
+font-style: normal;
+line-height: 80px
+  }
+  .content-container h2{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal; 
+  }
+  
+  
+  
   .proj-description{
     padding: 120px 80px;
     text-align: center;
@@ -152,9 +197,7 @@ padding: 18px 30px;
 
   
   .email-link {
-    
-    
-    color: var(--primary-color);
+     color: var(--primary-color);
     font-size: 15px;
     text-decoration: none;
     color:rgb(39, 32, 68);
@@ -168,14 +211,7 @@ padding: 18px 30px;
     max-width: 100%;
     height: auto;
   }
-  .secondary-link {
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-  }
+  
   .primary-link {
     font-size: 18px;
     line-height: 27px;
@@ -199,6 +235,36 @@ padding: 18px 30px;
   
 
   }
+  .contact-nav{
+    padding: 20px 0;
+  }
+  .contact-nav ul{
+    padding: 0;
+    margin: 0;
+  }
+  .contact-nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+
+  }
+  .contact-nav a{
+    text-decoration: none;
+    color:#272142 ;
+    transition: all 100ms ease-in-out;}
+    
+  .contact-nav a:hover,
+  .contact-nav li.active a{
+    color: rgb(93, 136, 192);
+  }
+  .nav-item{
+    color:rgb(39, 32, 68); 
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:rgb(93, 136, 192);
+  }
+  
 
 @media (max-width: 900px) {
     h1{
@@ -211,7 +277,7 @@ padding: 18px 30px;
         font-size:44px ;
     }
     h3{
-        font-size: 15px;
+        font-size: 20px;
     }
     .navigation-links a {
         padding: 15px 10px;
@@ -232,7 +298,18 @@ padding: 18px 30px;
       
       
     }
-    
+    .content-container{
+      text-align: center;
+      padding: 80px 40px;
+      
+      
+    }
+    .content-container h1{
+      margin-top: 30px;
+      font-size: 44px;
+      
+
+    }
     
     
 
@@ -244,4 +321,15 @@ padding: 18px 30px;
       padding: 80px 20px;
       
     }
+    .btn-branding{
+      font-size: 20px;
+      padding: 20px 15px;
+    }
+  .navbar-brand{
+    font-size: 25px;
+  }
+  
+
+
+  
   }
