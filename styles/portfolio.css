@@ -11,9 +11,7 @@
     --heading-font-family:'Playfair Display', serif; 
     --default-font-family:'Poppins', sans-serif;
   }
-  body{
-    margin: 0auto;
-  }
+ 
   
   
   h1,h2,h3,h4,h5,h6{
@@ -44,9 +42,12 @@
   }
   
   h3 {
-    font-size: 24px;
-    opacity: 0.7;
+    font-size: 28px;
     
+    
+  }
+  h4{
+    font-size: 48 px;
   }
   
   p {
@@ -60,12 +61,16 @@
 
   }
   
+   body{
+    margin: 10px;
     
+   } 
   
   .hero{
     background-color:rgb(243, 246, 250);
     text-align: center;
-    padding: 160px 20px;
+    padding: 100px 20px;
+  
   
   }
   .hero p{
@@ -107,6 +112,25 @@ text-transform: capitalize;
     
   }
   
+
+ 
+
+ 
+  .navbar-toggler{
+    color:rgb(39, 32, 68); 
+  }
+  .nav-link{
+    color:rgb(39, 32, 68);
+    font-weight: bold; 
+  }
+  .nav-link:hover{
+    color:rgb(24, 129, 226) ;
+  }
+
+ 
+
+  
+  
   .navigation-links {
     display: flex;
     margin-top: 40px;
@@ -137,16 +161,15 @@ text-transform: capitalize;
     text-align: center;
     display: block;
   }
-  .title-about{
-    font-size:86PX ;
+  
 
-  }
+  
   .workpage{ 
-    background-color:rgb(250, 234, 235); 
+    background-color:rgb(250, 234, 235);
 
   }
   .content-container{
-    padding: 160px 20px;
+    padding: 100px 20px;
      text-align: center;
      background-color:rgb(250, 234, 235);
     
@@ -171,6 +194,7 @@ text-transform: capitalize;
   
   .degree{
     background-color:rgb(252, 246, 246) ;
+    padding: 80px 20px;
   }
   
   .content-container h1{
@@ -190,21 +214,49 @@ line-height: 80px
   
   
   .proj-description{
-    padding: 120px 80px;
+    padding: 160px 20px;
     text-align: center;
   }
-  
+  footer .contact-box{
+    background-color: rgb(243, 246, 250);
+    padding: 30px 120px;
+    border-radius: 10px ;
 
+  }
+  footer .contact-box p{
+    margin:0 ;
+  }
+  footer{
+    margin: 60px 20px;
+  }
   
-  .email-link {
-     color: var(--primary-color);
-    font-size: 15px;
+.email-link {
+    text-align: center;
+    font-weight:bold;
+    font-style:italic ;
+   font-size: 24px;
     text-decoration: none;
     color:rgb(39, 32, 68);
   }
   
-  .email-link:hover {
-    text-decoration: underline;
+   .email-link:hover {
+    text-decoration: none;
+    color:rgb(247, 7, 118) ;
+  }
+  footer .social-links a{
+    margin: 0 20px;
+    color:rgb(39, 32, 68);
+    background-color:rgb(243, 246, 250);
+    border-radius: 50px;
+    padding: 10px 14px;
+    font-size: 18px;
+    transition: all 100 ease-in-out;
+
+  }
+  footer .social-links a:hover{
+    color:rgb(243, 246, 250);
+    background-color:rgb(39, 32, 68); ;
+
   }
   .fluid-images {
     margin: 30px;
@@ -235,35 +287,7 @@ line-height: 80px
   
 
   }
-  .contact-nav{
-    padding: 20px 0;
-  }
-  .contact-nav ul{
-    padding: 0;
-    margin: 0;
-  }
-  .contact-nav li{
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
-
-  }
-  .contact-nav a{
-    text-decoration: none;
-    color:#272142 ;
-    transition: all 100ms ease-in-out;}
-    
-  .contact-nav a:hover,
-  .contact-nav li.active a{
-    color: rgb(93, 136, 192);
-  }
-  .nav-item{
-    color:rgb(39, 32, 68); 
-  }
-  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color:rgb(93, 136, 192);
-  }
+  
   
 
 @media (max-width: 900px) {

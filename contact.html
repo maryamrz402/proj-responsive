@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-     content="About MaryamReyhanian junior front-end developer from Iran,you can contact with her by email to 
-     maryamreyhanian@yahoo.com ">
+     content="contant MaryamReyhanian junior front-end developer from Iran,you can contact with her by email and telegram  
+      ">
 
     <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>about me Maryam Reyhanian</title>
+    <title>contact Maryam Reyhanian</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=PT+Serif:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
   
@@ -28,25 +28,59 @@
     
 </head>
 <body>
-  <div class="container">
-    <nav class="contact-nav d-flex justify-content-between">
-      <a class="navbar-brand" href="/">MRZ</a>
-      <ul>
-        <li class="active">
-         <a href="/"> Home</a>
-        </li>
-        <li>
-          <a href="/about.html">About Me</a>
-        </li>
-        <li>
-          <a href="/work.html">work</a>
-        </li>
-        <li>
-         <a href="/contact.html">contact</a>
-        </li>
-      </ul>
+  <nav class="navbar bg-white fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/" title="homepage">MRZ</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            Maryam Reyhanian
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="/" title="homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title=" About MaryamReyhanian">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/work.html" title="work's MaryamReyhanian">work</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="/certificates.html" title="maryamreyhanian's certificates">My Certificates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" title="contact maryamreyhanian">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
     </div>
-    </nav>
+  </nav> 
       <div class="content-container text-center ">
         <div class="content text-center m-3">
       <h1 class="mb-5">
@@ -56,18 +90,59 @@
         Email
     </h3>
      <p>
-        <a href="mailto:maryamreyhanian61@gmail.com">
+        <a href="mailto:maryamreyhanian61@gmail.com" title="mailto MaryamReyhanian">
          maryamreyhanian61@gmail.com
         </a>
          </p>
          <h3>
-            Telegram
-        </h3>
+          Telegram
+          </h3>
+          <a href="@MRZMMSA" title="account in telegram">
+           Telegram @MRZMMSA
          <p>
              
         </p>
     </div>
 </div>
+<footer class="container">
+  <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+    <div>
+    <h3>
+      Work Inquiry
+    </h3>
+    <p class="text-muted">Let's Work Togather</p>
+  </div>
+  <div>
+    <a href="" class=" btn btn-branding m-3" 
+    title="Contact MaryamReyhanian">Contact Me</a>
+    </div>
+    </div>
+  <a href="mailto:maryamreyhanian61@gmail.com"
+   class="email-link d-flex justify-content-center mb-5"
+   title="mail to MaryamReyhanian">
+   maryamreyhanian61@gmail.com</a>
+  <div class="social-links d-flex justify-content-center mb-3 ">
+    <a href="https://www.github.com/maryamrz402"
+     title="github profilo"
+    target="_blank">
+    <i class="fa-brands fa-github" ></i>
+    </a>
+    <a href=""
+    target="_blank" title="instagram profilo">
+    <i class="fa-brands fa-square-instagram" ></i>
+  </a>
+    <a href=""
+    target="_blank" title="telegram profilo">
+    <i class="fa-brands fa-telegram"></i>
+  </a>
+  </div>
+  <p class="text-center mt">
+    This project coded by MaryamReyhanian,and it is
+    <a href=""
+    target="_blank"> open-sourced</a>
+  </p>
+</footer>
+
              
  
 
